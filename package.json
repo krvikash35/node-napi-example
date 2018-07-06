@@ -1,0 +1,16 @@
+{
+  "name": "dll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addon.js",
+  "scripts": {
+    "pretest": "node-gyp rebuild",
+    "test": "node addon.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.3.0"
+  },
+  "gypfile": true
+}
